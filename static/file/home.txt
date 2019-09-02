@@ -1,0 +1,7 @@
+teacherInfo:
+ {
+            "name": "教师姓名",
+            "subCount": "授课科目数",
+            "teachYear": "教学年数",
+            "directGame": "是否指导相关比赛"
+        },

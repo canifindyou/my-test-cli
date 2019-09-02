@@ -3,10 +3,14 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-
-Vue.config.productionTip = false
-
-/* eslint-disable no-new */
+import $ from "jquery"
+import BootstrapVue from 'bootstrap-vue'
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
+import "bootstrap/dist/js/bootstrap"
+import G from "./tool/fn"
+Vue.prototype.readFile = G.readFile
+Vue.use(BootstrapVue)
 new Vue({
   el: '#app',
   router,

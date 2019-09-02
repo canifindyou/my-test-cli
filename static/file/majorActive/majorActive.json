@@ -1,0 +1,131 @@
+{
+    "说明":"nav为导航栏内的内容：title为内容；flag为创建的此项导航对应的列表名，对应数组listx；num为该导航项的顺序",
+    "nav": [
+        {
+            "title": "C++",
+            "flag":"list1",
+            "num": 0
+        },
+        {
+            "title": "C语言",
+            "flag":"list2",
+            "num": 1
+        },
+        {
+            "title": "编译原理",
+            "flag":"list3",
+            "num": 2
+        },
+        {
+            "title": "数据库",
+            "flag":"list4",
+            "num": 3
+        }
+    ],
+
+    "说明":"listXX 对应的是创建的导航内容中的flag;itemFlag是该列表项的id，在编辑详情内容时，该id作为key值",
+    "list1": [
+        {
+            "listTitle": "C++课程活动",
+            "listContent": "这里是列表项简介",
+            "person": "发布人",
+            "date": "2019-10-6",
+            "itemBelong":"list1",
+            "itemFlag":"item1"
+        },
+        {
+            "listTitle": "C++课程活动二",
+            "listContent": "这里是列表项简介",
+            "person": "发布人",
+            "date": "2019-10-6",
+            "itemBelong":"list1",
+            "itemFlag":"item2"
+        },
+        {
+            "listTitle": "C++课程活动三",
+            "listContent": "这里是列表项简介",
+            "person": "发布人",
+            "date": "2019-10-6",
+            "itemBelong":"list1",
+            "itemFlag":"item3"
+        }
+    ],
+    "list2": [
+        {
+            "listTitle": "C课程活动",
+            "listContent": "这里是列表项简介",
+            "person": "发布人",
+            "date": "2019-10-6",
+            "itemBelong":"list2",
+            "itemFlag":"item1"
+        },
+        {
+            "listTitle": "C课程活动二",
+            "listContent": "这里是列表项简介",
+            "person": "发布人",
+            "date": "2019-10-6",
+            "itemBelong":"list2",
+            "itemFlag":"item2"
+        },
+        {
+            "listTitle": "C课程活动三",
+            "listContent": "这里是列表项简介",
+            "person": "发布人",
+            "date": "2019-10-6",
+            "itemBelong":"list2",
+            "itemFlag":"item3"
+        }
+    ],
+    "list3": [
+        {
+            "listTitle": "编译原理课程活动",
+            "listContent": "这里是列表项简介",
+            "person": "发布人",
+            "date": "2019-10-6",
+            "itemBelong":"list3",
+            "itemFlag":"item1"
+        },
+        {
+            "listTitle": "编译原理课程活动二",
+            "listContent": "这里是列表项简介",
+            "person": "发布人",
+            "date": "2019-10-6",
+            "itemBelong":"list3",
+            "itemFlag":"item2"
+        },
+        {
+            "listTitle": "编译原理课程活动三",
+            "listContent": "这里是列表项简介",
+            "person": "发布人",
+            "date": "2019-10-6",
+            "itemBelong":"list3",
+            "itemFlag":"item3"
+        }
+    ],
+    "list4": [
+        {
+            "listTitle": "数据库课程活动",
+            "listContent": "这里是列表项简介",
+            "person": "发布人",
+            "date": "2019-10-6",
+            "itemBelong":"list4",
+            "itemFlag":"item1"
+        },
+        {
+            "listTitle": "数据库课程活动二",
+            "listContent": "这里是列表项简介",
+            "person": "发布人",
+            "date": "2019-10-6",
+            "itemBelong":"list4",
+            "itemFlag":"item2"
+        },
+        {
+            "listTitle": "数据库课程活动三",
+            "listContent": "这里是列表项简介",
+            "person": "发布人",
+            "date": "2019-10-6",
+            "itemBelong":"list4",
+            "itemFlag":"item3"
+        }
+    ]
+}

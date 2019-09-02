@@ -1,0 +1,45 @@
+{
+    "jianjie": [
+        "第一段",
+        "第二段",
+        "第三段，如果没有多段，请删除这些提示"
+    ],
+    "teacherInfo": [
+        {
+            "name": "朱洪军",
+            "subCount": "3",
+            "teachYear": "3",
+            "directGame": 0
+        },
+        {
+            "name": "高超",
+            "subCount": "2",
+            "teachYear": "2",
+            "directGame": 1
+        },
+        {
+            "name": "伍祥",
+            "subCount": "2",
+            "teachYear": "2",
+            "directGame": 0
+        },
+        {
+            "name": "朱伟杰",
+            "subCount": "2",
+            "teachYear": "2",
+            "directGame": 1
+        },
+        {
+            "name": "赵四",
+            "subCount": "2",
+            "teachYear": "2",
+            "directGame": 0
+        }
+    ],
+    "aboutUs": {
+        "m_provide": "我们可以提供什么",
+        "m_help":"我们的帮助",
+        "m_get":"学生可能获得什么",
+        "m_worth":"网站的价值--- 以上皆为需要填写的文档"
+    }
+}
